@@ -1,0 +1,14 @@
+# Bỏ qua thư mục thư viện Node.js
+node_modules/
+
+# Bỏ qua file biên dịch Arduino/C#
+*.hex
+*.elf
+*.bin
+build/
+obj/
+
+# Bỏ qua file hệ thống/Backup
+*.log
+*.pdsprj.*
+Project Backups/

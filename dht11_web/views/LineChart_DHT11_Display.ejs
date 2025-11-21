@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DHT11 Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>DHT11 Temperature & Humidity Chart</h1>
+  <button onclick="connectSerial()">Connect</button>
+    <button onclick="disconnectSerial()">Disconnect</button>
+    <!-- <div id="dht11Data">No data</div> -->
+
+  <canvas id="dht11Chart" width="800" height="400"></canvas>
+
+  <script src="/javascripts/dht11_fun.js"></script>
+  <script src="/javascripts/linechart_dht11.js"></script>
+</body>
+</html>
