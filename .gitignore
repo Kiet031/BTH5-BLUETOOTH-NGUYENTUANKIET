@@ -12,3 +12,7 @@ obj/
 *.log
 *.pdsprj.*
 Project Backups/
+
+# Wireshark capture files (RẤT NẶNG)
+*.pcap
+*.pcapng
